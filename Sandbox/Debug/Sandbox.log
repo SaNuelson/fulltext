@@ -1,0 +1,15 @@
+﻿  Main.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\algorithm(1443): error C2664: 'int (int)': cannot convert argument 1 from '_Ty' to 'int'
+          with
+          [
+              _Ty=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\algorithm(1443): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  c:\users\black warden\source\repos\fulltextseeker\sandbox\main.cpp(20): note: see reference to function template instantiation '_OutIt *std::transform<std::_String_iterator<std::_String_val<std::_Simple_types<_Ty>>>*,std::_String_iterator<std::_String_val<std::_Simple_types<_Ty>>>*,int(__cdecl *)(int)>(const _InIt,const _InIt,_OutIt,_Fn)' being compiled
+          with
+          [
+              _OutIt=std::_String_iterator<std::_String_val<std::_Simple_types<char>>> *,
+              _Ty=char,
+              _InIt=std::_String_iterator<std::_String_val<std::_Simple_types<char>>> *,
+              _Fn=int (__cdecl *)(int)
+          ]

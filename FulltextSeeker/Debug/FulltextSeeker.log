@@ -1,0 +1,21 @@
+﻿  Main.cpp
+c:\users\black warden\source\repos\fulltextseeker\fulltextseeker\main.cpp(41): error C3861: 'ReadArticles': identifier not found
+c:\users\black warden\source\repos\fulltextseeker\fulltextseeker\main.cpp(45): error C3861: 'ReadQueriesCin': identifier not found
+c:\users\black warden\source\repos\fulltextseeker\fulltextseeker\main.cpp(49): error C3861: 'ReadQueriesFile': identifier not found
+c:\users\black warden\source\repos\fulltextseeker\fulltextseeker\main.cpp(66): error C3867: 'std::basic_istream<char,std::char_traits<char>>::peek': non-standard syntax; use '&' to create a pointer to member
+c:\users\black warden\source\repos\fulltextseeker\fulltextseeker\main.cpp(85): error C3867: 'std::basic_istream<char,std::char_traits<char>>::peek': non-standard syntax; use '&' to create a pointer to member
+c:\users\black warden\source\repos\fulltextseeker\fulltextseeker\main.cpp(100): warning C4390: ';': empty controlled statement found; is this the intent?
+c:\users\black warden\source\repos\fulltextseeker\fulltextseeker\main.cpp(122): error C3867: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::begin': non-standard syntax; use '&' to create a pointer to member
+c:\users\black warden\source\repos\fulltextseeker\fulltextseeker\main.cpp(122): error C3867: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::end': non-standard syntax; use '&' to create a pointer to member
+c:\users\black warden\source\repos\fulltextseeker\fulltextseeker\main.cpp(122): error C2568: '<=': unable to resolve function overload
+  c:\users\black warden\source\repos\fulltextseeker\fulltextseeker\main.cpp(122): note: could be 'std::_String_const_iterator<std::_String_val<std::_Simple_types<_Ty>>> std::basic_string<char,std::char_traits<char>,std::allocator<_Ty>>::end(void) noexcept const'
+          with
+          [
+              _Ty=char
+          ]
+  c:\users\black warden\source\repos\fulltextseeker\fulltextseeker\main.cpp(122): note: or       'std::_String_iterator<std::_String_val<std::_Simple_types<_Ty>>> std::basic_string<char,std::char_traits<char>,std::allocator<_Ty>>::end(void) noexcept'
+          with
+          [
+              _Ty=char
+          ]
+c:\users\black warden\source\repos\fulltextseeker\fulltextseeker\main.cpp(135): error C2059: syntax error: ']'

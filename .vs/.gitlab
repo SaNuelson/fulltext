@@ -1,0 +1,13 @@
+{
+  "User": {
+    "Id": 42,
+    "Username": "samuel",
+    "Name": "Samuel Novelinka",
+    "Email": "sanuelson42@gmail.com",
+    "AvatarUrl": "https://secure.gravatar.com/avatar/e0add45cd6d2924b81a849b9d33cb7da?s=80&d=identicon",
+    "PrivateToken": "2f213c592137c39ec368fdc81b3b7496ef8a020c8a9321ab41a72f2ff426dac7",
+    "Host": "https://gitlab.senman.cz/",
+    "TwoFactorEnabled": false,
+    "ApiVersion": 3
+  }
+}

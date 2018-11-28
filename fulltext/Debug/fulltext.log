@@ -1,0 +1,22 @@
+﻿  fulltext.cpp
+c:\users\black warden\source\repos\fulltextseeker\fulltext\fulltext.cpp(102): error C2679: binary '[': no operator found which takes a right-hand operand of type 'const Article *' (or there is no acceptable conversion)
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\map(361): note: could be 'unsigned int &std::map<Article *,unsigned int,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>::operator [](Article *const &)'
+          with
+          [
+              _Kty=Article *,
+              _Ty=unsigned int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\map(197): note: or       'unsigned int &std::map<Article *,unsigned int,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>::operator [](Article *&&)'
+          with
+          [
+              _Kty=Article *,
+              _Ty=unsigned int
+          ]
+  c:\users\black warden\source\repos\fulltextseeker\fulltext\fulltext.cpp(102): note: while trying to match the argument list '(std::map<Article *,unsigned int,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>, const Article *)'
+          with
+          [
+              _Kty=Article *,
+              _Ty=unsigned int
+          ]
+  main.cpp
+  Generating Code...

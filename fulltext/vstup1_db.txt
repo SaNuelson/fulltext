@@ -1,0 +1,12 @@
+ART001
+The first article
+This is the first article and the only words different are: first.
+ART002
+The second article
+This is the second article and similarly the only words different are: second, similarly.
+ART003
+The third article
+This article focuses on its own issues, no talk about different words, this is completely different paragraph
+ART420
+360No-scope
+BUT CAN YOU DO THIS???
